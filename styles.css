@@ -1,0 +1,30 @@
+@font-face {
+  font-family: norse-bold;
+  src: url("./static/Norse-Bold.otf");
+}
+
+* {
+  outline: 2px solid red;
+}
+
+body {
+  display: flex; /* or inline-flex */
+  height: 100vh;
+}
+
+.logo {
+  font-family: norse-bold, sans-serif;
+}
+
+.image-sidebar {
+  background-image: url("./static/img/plant-background.jpg");
+  background-color: #596d48;
+  background-size: cover;
+  flex-grow: 1;
+  color: white;
+}
+
+.login-form {
+  color: black;
+  flex-grow: 2;
+}
